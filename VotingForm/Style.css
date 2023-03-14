@@ -1,0 +1,232 @@
+    body {
+    /*width: auto;*/
+    top:0;
+    height:100vh;
+   /*margin-top:0px;*/
+    margin:auto;
+    /*padding:auto;*/
+     background-image: url(./image/background/Desktop.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    scroll-behavior: smooth;
+    background-color: #fef0d6;
+}
+/*.container{*/
+/*    background-image: url(./image/background/Desktop.jpg);*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+.image-unit{
+    height:350px;
+    width:350px;
+}
+
+
+.sec-1{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    top:0;
+    /*margin-top:0px;*/
+    /*overflow-y:scroll;*/
+    /*  background-image: url(./image/background/BRDB_ContestFormBG.jpg);*/
+    /*  background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center center;*/
+    scroll-behavior: smooth;
+}
+.sec-2 {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    top:0;
+    /*margin-top:0px;*/
+    /*overflow-y:scroll;*/
+}
+.my-form {
+    width: 50%;
+}
+.content-recep{
+    text-align: justify;
+}
+/* .content-name{
+    width: 40%;
+} */
+
+/* .content-image > img {
+    height: 100px !important;
+    width: 100px !important;
+
+} */
+
+.i-h2-1{
+        font-weight:400;
+        font-size:20px;
+    }
+
+@media only screen and (max-width: 600px){
+    .my-form {
+    width: 80%;
+}
+/*.form-sec2{*/
+/*    display:flex;*/
+/*    flex-direction:column !important;*/
+/*    width:220%;*/
+/*}*/
+
+.image-unit{
+    height:250px;
+    width:250px;
+}
+
+.i-h2-1{
+        font-weight:400;
+        font-size:18px;
+    }
+
+
+
+body {
+    /*width: auto;*/
+    /*height:auto;*/
+    margin:auto;
+    /*padding:auto;*/
+     background-image: url(./image/background/mobile.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.sec-1{
+    width:100%;
+     /*overflow-y: hidden;*/
+      overflow-x: hidden;
+      /*background-image: url(./image/background/BRDB_ContestFormBG_Mobile.jpg);*/
+      /*z-index:1;*/
+}
+.sec-2{
+    width:100%;
+     /*overflow-y: hidden;*/
+      overflow-x: hidden;
+      justify-content:center;
+      margin-top:-70px;
+}
+.fm-pt2{
+    margin-top:15px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+      .my-form {
+    width: 80%;
+}
+}
+
+/* Preloader CSS */
+/* #preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fef0d6; change if the mask should have another color then white
+    z-index:99999; makes sure it stays on top
+}
+#status {
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50%; centers the loading animation horizontally one the screen
+    top:50%; centers the loading animation vertically one the screen
+    background-image:url("./loader/preloader.gif");
+    z-index:9999; path to your loading animation
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin:-50px 0 0 -50px; is width and height divided by two
+} */
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999999;
+    background-image: url('./loader/preloader.gif'); /* your icon gif file path */
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-color: #fef0d6;
+    background-position: center;
+    }
+
+    /* Contestants.php */
+    .content-image > img {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .content-recep{
+        text-align: justify;
+    }
+    
+    /* Jquery read more */
+    .morecontent span {
+        display: none;
+    }
+    .morelink {
+        display: block;
+    }
+    /* END */
+
+    /* Button */
+
+    .mybtn{
+        background-color: #ea462b !important;
+        outline: none;
+        border: none;
+        color: #fff ;
+    }
+
+    .mybtn:hover{
+        color:#fff !important;
+    }
+
+    /* Read more - Read Less */
+    .morelink{
+        color: #ea462b;
+    }
+    .morelink:hover{
+        color: #ea462b;
+    }
+    
+    
+    /*index button animation*/
+    
+    #btn-h{
+         animation: zoom-in-zoom-out 1.5s ease-out infinite;
+    }
+    @keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.3, 1.3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+    
+    
+    
+    
+    
